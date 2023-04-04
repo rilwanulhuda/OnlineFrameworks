@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = "OnlineFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "This is short summary"
   spec.description  = "This is a short description"
 
   spec.homepage     = "https://github.com/rilwanulhuda"
-  spec.license      = { :type => "MIT", :file => "license" }
+  spec.license      = "MIT"
   spec.author             = { "rilwanulhuda" => "rilwanulhuda.dev@gmail.com" }
   spec.platform     = :ios, "16.1"
   spec.ios.vendored_frameworks = "OnlineFramework.xcframework"
