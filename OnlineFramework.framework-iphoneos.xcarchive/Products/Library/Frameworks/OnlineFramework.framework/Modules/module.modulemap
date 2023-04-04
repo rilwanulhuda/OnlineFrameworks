@@ -1,0 +1,11 @@
+framework module OnlineFramework {
+  umbrella header "OnlineFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module OnlineFramework.Swift {
+  header "OnlineFramework-Swift.h"
+  requires objc
+}

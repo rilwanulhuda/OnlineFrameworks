@@ -1,0 +1,97 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OnlineFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HiddenSources",
+        "printedName": "HiddenSources",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HiddenSources",
+                "printedName": "OnlineFramework.HiddenSources",
+                "usr": "s:15OnlineFramework13HiddenSourcesC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15OnlineFramework13HiddenSourcesCACycfc",
+            "mangledName": "$s15OnlineFramework13HiddenSourcesCACycfc",
+            "moduleName": "OnlineFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "firstHiddenFunction",
+            "printedName": "firstHiddenFunction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OnlineFramework13HiddenSourcesC05firstC8FunctionSbyF",
+            "mangledName": "$s15OnlineFramework13HiddenSourcesC05firstC8FunctionSbyF",
+            "moduleName": "OnlineFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secondHiddenFunction",
+            "printedName": "secondHiddenFunction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15OnlineFramework13HiddenSourcesC06secondC8FunctionyyF",
+            "mangledName": "$s15OnlineFramework13HiddenSourcesC06secondC8FunctionyyF",
+            "moduleName": "OnlineFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15OnlineFramework13HiddenSourcesC",
+        "mangledName": "$s15OnlineFramework13HiddenSourcesC",
+        "moduleName": "OnlineFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
